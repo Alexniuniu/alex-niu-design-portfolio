@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f7f6f2" />
+    <meta name="description" content="牛梦雅 Alex Niu — 资深设计师，专注 AI 产品、UI/UX 与视觉设计。" />
+    <title>Alex Niu — Senior Designer</title>
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%23ff5a16'/%3E%3Cpath d='M18 45 29 18h7l11 27h-8l-2-5H27l-2 5Zm11-11h6l-3-8Z' fill='%23f7f6f2'/%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="hero" id="top">
+      <header class="hero-copy">
+        <p class="kicker">ALEX NIU · 牛梦雅</p>
+        <h1>
+          <span class="soft">Senior designer</span>
+          <span>shaping <strong>AI experiences</strong></span>
+        </h1>
+        <p class="summary">专注 AI 产品、UI/UX 与视觉设计，把复杂的技术变成清晰、直觉且有温度的体验。</p>
+        <a class="cta" href="#profile">
+          <span class="cta-label">View My Portfolio</span>
+          <span class="cta-badge" aria-hidden="true">✦</span>
+        </a>
+      </header>
+
+      <div class="visual-stage" id="profile">
+        <div class="ribbons" aria-hidden="true">
+          <svg viewBox="0 0 2000 420" preserveAspectRatio="none">
+            <defs>
+              <path id="upper-path" d="M-120 244 C450 26 1110 432 2140 84" />
+              <path id="lower-path" d="M-120 291 C450 73 1110 479 2140 131" />
+            </defs>
+            <use href="#upper-path" class="upper-stroke" />
+            <use href="#lower-path" class="lower-stroke" />
+            <text class="upper-copy">
+              <textPath href="#upper-path" startOffset="-4%">AI product design　✦　UI/UX with clarity　✦　Visual systems with character　✦　AI product design　✦　UI/UX with clarity　✦　Visual systems with character　✦
+                <animate attributeName="startOffset" from="-4%" to="-54%" dur="24s" repeatCount="indefinite" />
+              </textPath>
+            </text>
+            <text class="lower-copy">
+              <textPath href="#lower-path" startOffset="-48%">Turning complexity into intuitive experiences　✦　Turning complexity into intuitive experiences　✦　Turning complexity into intuitive experiences　✦
+                <animate attributeName="startOffset" from="-48%" to="2%" dur="21s" repeatCount="indefinite" />
+              </textPath>
+            </text>
+          </svg>
+        </div>
+
+        <div class="card-stack" aria-label="Alex Niu 个人资料卡片">
+          <article class="profile-card card-left" data-depth="0.45">
+            <div class="card-image crop-left"><img src="./assets/profile-source.png" alt="" /></div>
+            <span class="handle">@alexniu</span>
+            <span class="metric">✦ AI Product</span>
+          </article>
+
+          <article class="profile-card card-right" data-depth="0.7">
+            <div class="card-image crop-right"><img src="./assets/profile-source.png" alt="" /></div>
+            <span class="handle">@niumengya</span>
+            <span class="metric">✦ Visual</span>
+          </article>
+
+          <article class="profile-card card-main" data-depth="1">
+            <div class="card-image crop-main"><img src="./assets/profile-source.png" alt="牛梦雅 Alex Niu 的个人肖像" /></div>
+            <div class="card-topline"><span>@alexniu</span><span>10Y+ EXP</span></div>
+            <div class="view-pill"><span class="eye" aria-hidden="true">◉</span> Senior Designer</div>
+          </article>
+        </div>
+      </div>
+
+      <a class="corner-note" href="#top" aria-label="回到顶部">
+        <span>AI PRODUCT</span><i></i><span>UIUX</span><i></i><span>VISUAL</span>
+      </a>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
